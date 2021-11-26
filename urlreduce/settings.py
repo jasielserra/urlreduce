@@ -86,6 +86,7 @@ if database_url is None:
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 else:
     database_url = database_url.replace('postgres://', '')
     credenciais, url = database_url.split('@')
