@@ -1,2 +1,2 @@
 release: python manage.py migrate --noinput
-web: gunicorn encurtador.wsgi --log-file -
+web: gunicorn urlreduce.wsgi --log-file -
